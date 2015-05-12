@@ -20,14 +20,17 @@ group :test, :development do
   gem 'byebug'
   gem 'rubocop'
   gem 'better_errors'
+
   gem 'rspec', '2.14.1'
   gem 'rspec-rails'
-  gem "factory_girl_rails"
+  gem "factory_girl_rails" # build ruby object for test
   gem "launchy"
-  gem 'guard'
+  # gem 'guard'
   gem 'database_cleaner'
   gem 'simplecov',require: false
   gem 'shoulda-matchers', require: false
   gem 'faker'
-  gem 'turnip'
 end
+
+
+# Hello i want to change somthing

@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :list do
-    name "MyString"
-    description "MyText"
+    name "My List"
+    description "List of good books"
     published false
   end
 end
